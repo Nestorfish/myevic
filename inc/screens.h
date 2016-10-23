@@ -223,6 +223,7 @@ extern const uint16_t String_PPwr[];
 extern const uint16_t String_Clicks[];
 extern const uint16_t String_BAT[];
 extern const uint16_t String_GEN[];
+extern const uint16_t String_CUS[];
 extern const uint16_t String_25R[];
 extern const uint16_t String_HG2[];
 extern const uint16_t String_HE4[];

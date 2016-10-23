@@ -50,6 +50,21 @@ const BatV2P_t GENB_VTable[] =
 	{ 100, 410 }
 };
 
+const BatV2P_t CUST_VTable[] =
+{
+	{   0, 310 },
+	{   3, 316 },
+	{   6, 322 },
+	{  13, 330 },
+	{  21, 335 },
+	{  38, 345 },
+	{  50, 353 },
+	{  93, 393 },
+	{  97, 398 },
+	{  99, 405 },
+	{ 100, 414 }
+};
+
 const BatV2P_t S25R_VTable[] =
 {
 	{   0, 302 },
@@ -183,6 +198,14 @@ const Battery_t Batteries[] =
 		280,
 		25,
 		20
+	},
+
+	{
+		String_CUS,
+		CUST_VTable,
+		280,
+		20,
+		25
 	},
 
 	{
